@@ -5,7 +5,7 @@ author:fengweiqi
 email:yakia@gm99.com
 github:
 blog:fengweiqi.cn
-date:2014-12-07
+date:2015-1-06
 */ 
 ;(function($, window, document,undefined) {
 	var Privateclass = function(el) {//私有类
