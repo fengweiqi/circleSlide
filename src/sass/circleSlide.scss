@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import "CCS/common/common";
+#circleSlide{
+	$liWidth:200px;
+	$liHeight:300px;
+	$liMarginRight:10px;
+	$liLength:3;
+	position:relative;
+	overflow:hidden;
+	width:($liWidth+$liMarginRight)*$liLength+(-$liMarginRight);
+	border:10px solid #ddd;
+	ul{
+		@extend %clearfix;
+		width:1000%;
+		position:relative;
+		li{
+			@extend %pull-left;
+			width:$liWidth;
+			height: $liHeight;
+			background:green;
+			margin-right:$liMarginRight;
+			a{
+				img{
+					width:100%;
+				}
+			}
+		}
+	}
+	$pnWidth:50px;
+	$pnHeight:200px;
+	%pn{
+		width:$pnWidth;
+		height:$pnHeight;
+		cursor: pointer;
+		background:red;
+		position:absolute;
+		top:50%;
+
+	}
+	#prev{
+		@extend %pn;
+		left:0;
+		
+		margin-top:-$pnHeight/2;
+	}
+	#next{
+		@extend %pn;
+
+		margin-top:-$pnHeight/2;
+		right:0;
+	}
+
+	
+}

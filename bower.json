@@ -1,0 +1,45 @@
+{
+  "name": "easyslide",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fengweiqi/easySlide",
+  "authors": [
+    "fengweiqi <yakia@gm99.com>"
+  ],
+  "keywords": [
+    "jquery",
+    "easySlide",
+    "javascript",
+    "photo",
+    "image",
+    "picture",
+    "content",
+    "text",
+    "slider",
+    "slideshow",
+    "carousel",
+    "gallery",
+    "banner",
+    "js",
+    "mobile",
+    "responsive",
+    "front-end",
+    "touch",
+    "swipe",
+    "web",
+    "website",
+    "web page"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "appPath": "src",
+  "devDependencies": {
+    "jquery": "~2.1.1"
+  }
+}
